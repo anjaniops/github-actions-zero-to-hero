@@ -11,12 +11,12 @@ jobs:
     steps:
       - name: checkout code
         run: echo "Code Clone from GitHub"
-   build:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Build Docker Container
         run: echo "Testing Container build"
-   test:
+  test:
     runs-on: ubuntu-latest
     steps:
       - name: Test The Container
